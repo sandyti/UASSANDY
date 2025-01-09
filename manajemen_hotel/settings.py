@@ -128,17 +128,17 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 UNFOLD = {
     "SITE_TITLE": "Sistem Manajemen Hotel",
-    "SITE_HEADER": "HOTEL INTEL",
+    "SITE_HEADER": "HOTELIN",
     "SITE_ICON": {    
-        "light": lambda request: static("assets/logohotel.png"),  # light mode
-        "dark": lambda request: static("assets/logohotel.png"),  # dark mode
+        "light": lambda request: static("assets/logonew.png"),  # light mode
+        "dark": lambda request: static("assets/logonew.png"),  # dark mode
     },
     "SITE_FAVICONS": [
         {
             "rel": "icon",
             "sizes": "32x32",
             "type": "image/svg+xml",
-            "href": lambda request: static("assets/logohotel.png"),
+            "href": lambda request: static("assets/logonew.png"),
         },
     ],
     "SIDEBAR": {
